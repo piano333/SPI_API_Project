@@ -288,7 +288,7 @@ sbRIO-9651/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSSBRIO_
             <RelativeToLabVIEW>..\Shared\CompactRIO\CLIPs\sbRIO-9651\DevKit\DevKit.xml</RelativeToLabVIEW>
             <RelativeToNiPubDocs>..\..\..\..\Program Files (x86)\National Instruments\Shared\CompactRIO\CLIPs\sbRIO-9651\DevKit\DevKit.xml</RelativeToNiPubDocs>
             <RelativeToNiSharedDir>Shared\CompactRIO\CLIPs\sbRIO-9651\DevKit\DevKit.xml</RelativeToNiSharedDir>
-            <RelativeToProject>..\..\..\..\Program Files (x86)\National Instruments\Shared\CompactRIO\CLIPs\sbRIO-9651\DevKit\DevKit.xml</RelativeToProject>
+            <RelativeToProject>C:\Program Files (x86)\National Instruments\Shared\CompactRIO\CLIPs\sbRIO-9651\DevKit\DevKit.xml</RelativeToProject>
             <Valid>true</Valid>
          </DeclarationPaths>
          <Description>The CLIP that describes the I/O implementation on the reference carrier board included with the NI sbRIO-9651 SOM Development Kit.</Description>
@@ -8459,37 +8459,12 @@ sbRIO-9651/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSSBRIO_
 				</Item>
 				<Item Name="Dependencies" Type="Dependencies">
 					<Item Name="user.lib" Type="Folder">
-						<Item Name="NI SPI IP (FPGA).lvlib" Type="Library" URL="/&lt;userlib&gt;/_NI SPI IP/FPGA/Controllers/NI SPI IP (FPGA).lvlib"/>
+						<Item Name="NI SPI IP FPGA.lvlib" Type="Library" URL="/&lt;userlib&gt;/_NI SPI IP/FPGA/Controllers/NI SPI IP FPGA.lvlib"/>
 					</Item>
 					<Item Name="vi.lib" Type="Folder">
 						<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
-						<Item Name="Config SPI Digital Lines.vi" Type="VI" URL="/&lt;vilib&gt;/SPIAPI/DIO/Config SPI Digital Lines.vi"/>
-						<Item Name="Enable SPI Digital Lines(CLIP).vi" Type="VI" URL="/&lt;vilib&gt;/SPIAPI/DIO/Enable SPI Digital Lines(CLIP).vi"/>
-						<Item Name="Initialize SPI Internal References.vi" Type="VI" URL="/&lt;vilib&gt;/SPIAPI/Initialize SPI Internal References.vi"/>
-						<Item Name="Internal Data (SPI API).ctl" Type="VI" URL="/&lt;vilib&gt;/SPIAPI/Controls/Internal Data (SPI API).ctl"/>
-						<Item Name="Is SPI Channel Ready for Next Transaction.vi" Type="VI" URL="/&lt;vilib&gt;/SPIAPI/Is SPI Channel Ready for Next Transaction.vi"/>
 						<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
-						<Item Name="Read SPI Digital Lines.vi" Type="VI" URL="/&lt;vilib&gt;/SPIAPI/DIO/Read SPI Digital Lines.vi"/>
-						<Item Name="Read SPI Response for SPI Transactions.vi" Type="VI" URL="/&lt;vilib&gt;/SPIAPI/Read SPI Response for SPI Transactions.vi"/>
-						<Item Name="Set SPI Data for SPI Transactionvi.vi" Type="VI" URL="/&lt;vilib&gt;/SPIAPI/Set SPI Data for SPI Transactionvi.vi"/>
-						<Item Name="Set SPI PHY Configuration for SPI Transaction.vi" Type="VI" URL="/&lt;vilib&gt;/SPIAPI/Set SPI PHY Configuration for SPI Transaction.vi"/>
-						<Item Name="SPE Engine. Receiver States.ctl" Type="VI" URL="/&lt;vilib&gt;/SPIAPI/Controls/SPE Engine. Receiver States.ctl"/>
-						<Item Name="SPI Digital IO Lines.ctl" Type="VI" URL="/&lt;vilib&gt;/SPIAPI/DIO/SPI Digital IO Lines.ctl"/>
-						<Item Name="SPI DIO Enable Lines.ctl" Type="VI" URL="/&lt;vilib&gt;/SPIAPI/DIO/SPI DIO Enable Lines.ctl"/>
-						<Item Name="SPI Engine Top.vi" Type="VI" URL="/&lt;vilib&gt;/SPIAPI/SPI Engine/SPI Engine Top.vi"/>
-						<Item Name="SPI Engine. Get Commands from DownStream.vi" Type="VI" URL="/&lt;vilib&gt;/SPIAPI/SPI Engine/SPI Engine. Get Commands from DownStream.vi"/>
-						<Item Name="SPI Engine. Send SPI Device Response Data. Enqueue into FIFO.vi" Type="VI" URL="/&lt;vilib&gt;/SPIAPI/SPI Engine/subVI/SPI Engine. Send SPI Device Response Data. Enqueue into FIFO.vi"/>
-						<Item Name="SPI Engine. Send SPI Device Response Data.vi" Type="VI" URL="/&lt;vilib&gt;/SPIAPI/SPI Engine/SPI Engine. Send SPI Device Response Data.vi"/>
-						<Item Name="SPI Engine. SPICore.vi" Type="VI" URL="/&lt;vilib&gt;/SPIAPI/SPI Engine/SPI Engine. SPICore.vi"/>
-						<Item Name="SPI Engine.Get SPI Transaction Data.vi" Type="VI" URL="/&lt;vilib&gt;/SPIAPI/SPI Engine/subVI/SPI Engine.Get SPI Transaction Data.vi"/>
-						<Item Name="SPI Engine.SPICore.InputBuffer.vi" Type="VI" URL="/&lt;vilib&gt;/SPIAPI/SPI Engine/subVI/SPI Engine.SPICore.InputBuffer.vi"/>
-						<Item Name="SPI Engine.SPICore.OutputBuffer.vi" Type="VI" URL="/&lt;vilib&gt;/SPIAPI/SPI Engine/subVI/SPI Engine.SPICore.OutputBuffer.vi"/>
-						<Item Name="SPI Response Information.ctl" Type="VI" URL="/&lt;vilib&gt;/SPIAPI/Controls/SPI Response Information.ctl"/>
-						<Item Name="SPI Transaction Packet.ctl" Type="VI" URL="/&lt;vilib&gt;/SPIAPI/Controls/SPI Transaction Packet.ctl"/>
-						<Item Name="Start Current SPI Transaction.vi" Type="VI" URL="/&lt;vilib&gt;/SPIAPI/Start Current SPI Transaction.vi"/>
-						<Item Name="Write SPI Digital Lines.vi" Type="VI" URL="/&lt;vilib&gt;/SPIAPI/DIO/Write SPI Digital Lines.vi"/>
 					</Item>
-					<Item Name="SPIExample.CurrentStateFPGA.ctl" Type="VI" URL="../Controls/SPIExample.CurrentStateFPGA.ctl"/>
 				</Item>
 				<Item Name="Build Specifications" Type="Build">
 					<Item Name="cb_SPI PMOD" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
@@ -8611,14 +8586,11 @@ sbRIO-9651/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSSBRIO_
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
-				<Item Name="AcqRead(Wfm).vi" Type="VI" URL="/&lt;vilib&gt;/NI/cRIO Wfm/AcqRead(Wfm).vi"/>
-				<Item Name="BufferCfg.vi" Type="VI" URL="/&lt;vilib&gt;/NI/cRIO Wfm/BufferCfg.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
-				<Item Name="ConfigTiming.vi" Type="VI" URL="/&lt;vilib&gt;/NI/cRIO Wfm/ConfigTiming.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
-				<Item Name="CreateChan.vi" Type="VI" URL="/&lt;vilib&gt;/NI/cRIO Wfm/CreateChan.vi"/>
+				<Item Name="cRIO Wfm.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/cRIO Wfm/cRIO Wfm.lvlib"/>
 				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
@@ -8639,17 +8611,14 @@ sbRIO-9651/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSSBRIO_
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
-				<Item Name="ni_emb.dll" Type="Document" URL="/&lt;vilib&gt;/ni_emb.dll"/>
 				<Item Name="NI_MABase.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MABase.lvlib"/>
 				<Item Name="NI_MAPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MAPro.lvlib"/>
-				<Item Name="NI_Real-Time Target Support.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI_Real-Time Target Support.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
-				<Item Name="Read(Poly).vi" Type="VI" URL="/&lt;vilib&gt;/NI/cRIO Wfm/Read(Poly).vi"/>
+				<Item Name="rwfm_ChannelConfig.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/cRIO Wfm/Compatibility/rwfm_ChannelConfig.ctl"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
-				<Item Name="Start.vi" Type="VI" URL="/&lt;vilib&gt;/NI/cRIO Wfm/Start.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
@@ -8661,7 +8630,6 @@ sbRIO-9651/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSSBRIO_
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="PMOD Driver.lvbitx" Type="Document" URL="../FPGA Bitfiles/PMOD Driver.lvbitx"/>
-			<Item Name="rwfm_ChannelConfig.ctl" Type="VI" URL="../../../LucidSPI/Dependencies/cRIO Wfm/_subVIs/RIO Wfm Cust Ctrls/rwfm_ChannelConfig.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

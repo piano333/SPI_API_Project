@@ -1,0 +1,2 @@
+Ryan added the VIPM build spec, and built the first version of the package.
+This required updating the linking between the palette VIs, such that they reference eachother instead of the vi.lib
