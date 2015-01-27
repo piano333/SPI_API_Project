@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-01-16 14:42:32" Modified_Date="2015-01-26 19:20:13" Creator="rpoulos" Comments="" ID="8c056290b45b1142f9655cb797a96ec8">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-01-16 14:42:32" Modified_Date="2015-01-26 19:32:39" Creator="rpoulos" Comments="" ID="8ccafcc50309f724de98cab4b650b507">
   <Library_General_Settings>
     <Package_File_Name>National_Instruments_lib_SPI_API</Package_File_Name>
-    <Library_Version>1.0.0.11</Library_Version>
+    <Library_Version>1.0.0.14</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\Build</Library_Output_Folder>
@@ -244,7 +244,7 @@ Added cRIO Waveform API as a dependency - we could remove this, but if half our 
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>Set SPI Data for SPI Transactionvi.vi</NameSub_Menu_Name>
-        <Short_Name>Write Command</Short_Name>
+        <Short_Name>Send Data</Short_Name>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
           <Row>2</Row>
@@ -258,7 +258,7 @@ Added cRIO Waveform API as a dependency - we could remove this, but if half our 
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>Read SPI Response for SPI Transactions.vi</NameSub_Menu_Name>
-        <Short_Name>Read Response</Short_Name>
+        <Short_Name>Read Data</Short_Name>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
           <Row>2</Row>
@@ -272,7 +272,7 @@ Added cRIO Waveform API as a dependency - we could remove this, but if half our 
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>Initialize SPI Internal References.vi</NameSub_Menu_Name>
-        <Short_Name>Initialize</Short_Name>
+        <Short_Name>Initialize SPI</Short_Name>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
           <Row>1</Row>
@@ -286,7 +286,7 @@ Added cRIO Waveform API as a dependency - we could remove this, but if half our 
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>Start Current SPI Transaction.vi</NameSub_Menu_Name>
-        <Short_Name>Start</Short_Name>
+        <Short_Name>Start SPI</Short_Name>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
           <Row>1</Row>
@@ -300,7 +300,7 @@ Added cRIO Waveform API as a dependency - we could remove this, but if half our 
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>Is SPI Channel Ready for Next Transaction.vi</NameSub_Menu_Name>
-        <Short_Name>Ready for Next?</Short_Name>
+        <Short_Name>Ready?</Short_Name>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
           <Row>2</Row>
@@ -314,7 +314,7 @@ Added cRIO Waveform API as a dependency - we could remove this, but if half our 
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>Set SPI PHY Configuration for SPI Transaction.vi</NameSub_Menu_Name>
-        <Short_Name>Set Configuration</Short_Name>
+        <Short_Name>SPI Config</Short_Name>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
           <Row>2</Row>
@@ -328,7 +328,7 @@ Added cRIO Waveform API as a dependency - we could remove this, but if half our 
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>FPGA Additive Timer.vi</NameSub_Menu_Name>
-        <Short_Name/>
+        <Short_Name>Sample Time</Short_Name>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
           <Row>3</Row>
@@ -363,7 +363,7 @@ Added cRIO Waveform API as a dependency - we could remove this, but if half our 
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>Config SPI Digital Lines.vi</NameSub_Menu_Name>
-        <Short_Name/>
+        <Short_Name>Digital Config</Short_Name>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
           <Row>1</Row>
@@ -377,7 +377,7 @@ Added cRIO Waveform API as a dependency - we could remove this, but if half our 
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>Enable SPI Digital Lines(CLIP).vi</NameSub_Menu_Name>
-        <Short_Name/>
+        <Short_Name>Enable Digital</Short_Name>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
           <Row>1</Row>
@@ -391,7 +391,7 @@ Added cRIO Waveform API as a dependency - we could remove this, but if half our 
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>Init SPI Digital Lines.vi</NameSub_Menu_Name>
-        <Short_Name/>
+        <Short_Name>Init Digital</Short_Name>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
           <Row>1</Row>
@@ -405,7 +405,7 @@ Added cRIO Waveform API as a dependency - we could remove this, but if half our 
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>Read SPI Digital Lines.vi</NameSub_Menu_Name>
-        <Short_Name/>
+        <Short_Name>Read Digital</Short_Name>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
           <Row>1</Row>
@@ -419,7 +419,7 @@ Added cRIO Waveform API as a dependency - we could remove this, but if half our 
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>Write SPI Digital Lines.vi</NameSub_Menu_Name>
-        <Short_Name/>
+        <Short_Name>Write Digital</Short_Name>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
           <Row>1</Row>
