@@ -283,10 +283,10 @@ sbRIO-9651/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSSBRIO_
          <DeclarationPaths>
             <Absolute>C:\Program Files (x86)\National Instruments\Shared\CompactRIO\CLIPs\sbRIO-9651\DevKit\DevKit.xml</Absolute>
             <MD5>78a230896dc0cf32126d63c7d0d9298d</MD5>
-            <RelativeToLabVIEW>C:\Program Files (x86)\National Instruments\Shared\CompactRIO\CLIPs\sbRIO-9651\DevKit\DevKit.xml</RelativeToLabVIEW>
+            <RelativeToLabVIEW>..\Shared\CompactRIO\CLIPs\sbRIO-9651\DevKit\DevKit.xml</RelativeToLabVIEW>
             <RelativeToNiPubDocs>..\..\..\..\Program Files (x86)\National Instruments\Shared\CompactRIO\CLIPs\sbRIO-9651\DevKit\DevKit.xml</RelativeToNiPubDocs>
             <RelativeToNiSharedDir>Shared\CompactRIO\CLIPs\sbRIO-9651\DevKit\DevKit.xml</RelativeToNiSharedDir>
-            <RelativeToProject>C:\Program Files (x86)\National Instruments\Shared\CompactRIO\CLIPs\sbRIO-9651\DevKit\DevKit.xml</RelativeToProject>
+            <RelativeToProject>..\..\..\..\..\..\..\..\..\..\Program Files (x86)\National Instruments\Shared\CompactRIO\CLIPs\sbRIO-9651\DevKit\DevKit.xml</RelativeToProject>
             <Valid>true</Valid>
          </DeclarationPaths>
          <Description>The CLIP that describes the I/O implementation on the reference carrier board included with the NI sbRIO-9651 SOM Development Kit.</Description>
@@ -7928,7 +7928,6 @@ sbRIO-9651/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSSBRIO_
 					<Item Name="vi.lib" Type="Folder">
 						<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 						<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
-						<Item Name="Acquisition Timer.vi" Type="VI" URL="/&lt;vilib&gt;/SPI API/SPIAPI/Acquisition Timer.vi"/>
 					</Item>
 					<Item Name="SPI DIO Enable Lines.ctl" Type="VI" URL="../../vi.lib/SPIAPI/DIO/SPI DIO Enable Lines.ctl"/>
 					<Item Name="SPI Digital IO Lines.ctl" Type="VI" URL="../../vi.lib/SPIAPI/DIO/SPI Digital IO Lines.ctl"/>
@@ -7954,6 +7953,7 @@ sbRIO-9651/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSSBRIO_
 					<Item Name="Set SPI PHY Configuration for SPI Transaction.vi" Type="VI" URL="../../vi.lib/SPIAPI/Set SPI PHY Configuration for SPI Transaction.vi"/>
 					<Item Name="Start Current SPI Transaction.vi" Type="VI" URL="../../vi.lib/SPIAPI/Start Current SPI Transaction.vi"/>
 					<Item Name="Read SPI Response for SPI Transactions.vi" Type="VI" URL="../../vi.lib/SPIAPI/Read SPI Response for SPI Transactions.vi"/>
+					<Item Name="Acquisition Timer.vi" Type="VI" URL="../../vi.lib/SPIAPI/Acquisition Timer.vi"/>
 				</Item>
 				<Item Name="Build Specifications" Type="Build">
 					<Item Name="SPI Simple DAC Example" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
