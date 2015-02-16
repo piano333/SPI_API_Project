@@ -1,0 +1,3 @@
+Rev 7
+- Updated MAX5216 Analog Output Example
+ - Modified code to correctly build 18-bit (24-bit) MOSI message for the 16-bit DAC
