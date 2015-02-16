@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-01-16 14:42:32" Modified_Date="2015-02-13 10:23:14" Creator="rpoulos" Comments="" ID="6b0fa70802951d47d431994f4c48e1ee">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-01-16 14:42:32" Modified_Date="2015-02-16 14:31:57" Creator="rpoulos" Comments="" ID="75d0adda797fe4f35aeba0685e84e17e">
   <Library_General_Settings>
     <Package_File_Name>National_Instruments_lib_SPI_API</Package_File_Name>
-    <Library_Version>1.0.1.18</Library_Version>
+    <Library_Version>1.0.1.19</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\Build</Library_Output_Folder>
@@ -349,7 +349,7 @@ NI System on Module
         <Path>vi.lib\SPIAPI\Acquisition Timer.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>14B9A5724E36D0320975D260D42B3BF5</GUID>
+      <GUID>F3DD0E866B51FDF395E9DD159483CF0C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -440,7 +440,7 @@ NI System on Module
         <Path>vi.lib\SPIAPI\DIO\Write SPI Digital Lines.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1194ECDEEEED4C52AD809626DA2481D6</GUID>
+      <GUID>EBFA3762CA45F853022A05D2DFD0DE92</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -503,7 +503,7 @@ NI System on Module
         <Path>vi.lib\SPIAPI\SPI Engine\SPI Engine. Send SPI Device Response Data.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D555033AC8008DB38B0EC16D76C06687</GUID>
+      <GUID>95D1ED7F9898138321BFC75BB36A34BB</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
