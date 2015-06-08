@@ -1,0 +1,3 @@
+Fixed and restructured examples
+Made all VIs reentrant
+	SPI Engine.SPI Core
